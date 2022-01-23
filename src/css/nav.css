@@ -1,0 +1,65 @@
+/*ESTILOS DA NAV*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;900&display=swap');
+
+nav{
+    width: 80%;
+    height: 140px;
+    border-bottom: #575757 solid 1px;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.textLogo{
+    text-decoration: none;
+    color:white;
+    display: inline-flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+nav ul{
+    list-style: none;    
+    display: flex;
+}
+
+nav ul li a{
+    color: aliceblue;
+    text-decoration: none;    
+}
+
+.listNavPrimary{
+    display: inline-flex;
+    align-items: center;
+}
+
+.listNavSecondary{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 30px;
+}
+
+.listNavPrimary li a{
+    margin-left: 50px;
+}
+
+.listNavSecondary li a{
+    margin-left: 50px;
+
+}
+
+ul li svg{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    float: right;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+    top: 55px;
+}
+
